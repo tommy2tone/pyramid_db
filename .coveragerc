@@ -1,0 +1,3 @@
+[run]
+source = collect_height
+omit = collect_height/test*
