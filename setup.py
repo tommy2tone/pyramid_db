@@ -19,7 +19,7 @@ requires = [
     'pyramid_tm',
     'SQLAlchemy',
     'transaction',
-    'zope.sqlalchemy'
+    'zope.sqlalchemy',
     'psycopg2',
 
 ]
