@@ -1,5 +1,5 @@
 #!/bin/bash
 set -e
 python setup.py develop
-initializedb production.ini
+initialize_collect_height_db production.ini
 python runapp.py
