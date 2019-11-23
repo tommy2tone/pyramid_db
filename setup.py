@@ -2,6 +2,8 @@ import os
 
 from setuptools import setup, find_packages
 
+sqlalchemy_url = os.environ.get('DATABASE_URL')
+
 here = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(here, 'README.txt')) as f:
     README = f.read()
@@ -20,6 +22,7 @@ requires = [
     'SQLAlchemy',
     'transaction',
     'zope.sqlalchemy',
+
     'psycopg2',
 
 ]
