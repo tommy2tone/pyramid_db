@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+cd collect_height
+python setup.py develop
+python runapp.py
+
