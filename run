@@ -2,6 +2,6 @@
 set -e
 cd collect_height
 python setup.py develop
-env/bin/initialize_collect_height_db production.ini
+.scripts/initialize_db.py
 python runapp.py
 
