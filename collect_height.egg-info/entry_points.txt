@@ -1,0 +1,6 @@
+[console_scripts]
+initialize_collect_height_db = collect_height.scripts.initialize_db:main
+
+[paste.app_factory]
+main = collect_height:main
+
