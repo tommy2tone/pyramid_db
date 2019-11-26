@@ -1,1 +1,1 @@
- web: pserve production.ini
+ web: ./run
