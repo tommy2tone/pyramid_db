@@ -1,5 +1,5 @@
 #!/bin/bash
-
+setup -e
 cd collect_height
 python setup.py develop
 initialize_db.py production.ini
