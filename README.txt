@@ -41,3 +41,5 @@ Getting Started
 - Run your project.
 
     env/bin/pserve development.ini
+    
+ - In send_email.py enter your email and password to send emails
